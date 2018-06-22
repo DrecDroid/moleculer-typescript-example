@@ -1,0 +1,21 @@
+{
+  "name": "moleculertypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register ./broker.ts "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.3.4",
+    "moleculer": "^0.12.8",
+    "moleculer-web": "^0.6.4",
+    "nats": "^1.0.0",
+    "ts-node": "^6.1.2",
+    "tsconfig-paths": "^3.4.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {}
+}
